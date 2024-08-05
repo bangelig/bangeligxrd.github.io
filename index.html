@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANG ELIG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Click count display above the image -->
+        <div class="click-display">
+            <div class="click-icon-container">
+                <img id="clickIcon" src="https://i.postimg.cc/0N34VMsN/iconapp1.png" alt="Click Icon">
+                <p id="clickCount">0</p>
+            </div>
+        </div>
+        <img id="gameImage" src="https://i.postimg.cc/FHC3S0y7/rdx1.png" alt="Clickable Image">
+        <p id="message"></p>
+        <div id="questionContainer" class="hidden">
+            <p id="questionText">Jawab pertanyaan nya dulu bre:</p>
+            <input type="number" id="answerInput" placeholder="Jawaban kamu">
+            <button id="submitAnswer">Submit</button>
+        </div>
+        <div id="progressBarContainer">
+            <div id="progressBar"></div>
+        </div>
+        <p class="footer">built by <a href="https://t.me/Bangelig">https://t.me/Bangelig</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
